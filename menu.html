@@ -2,36 +2,45 @@
 
 <body>
     <div class="menu">
-        <a href="cardapio.html" value="Logar">Cardápio</a>
+        <h1>Menu</h1>
+        <a href="cardapio.html"><input type="button" value="Cardápio"></a>
         <br>
-        <a href="estoque.html" value="Logar">Estoque atual</a>
+        <a href="estoque.html"><input id="in" type="button" value="Estoque atual"></a>
         <br>
-        <a href="valorcaixa.html" value="Logar">Valor p/ caixa</a>
+        <a href="valorcaixa.html"><input id="in" type="button" value="Valor por caixa"></a>
         <br>
-        <a href="venda.html" value="Logar">Vender</a>
+        <a href="venda.html"><input id="in" type="button" value="Vender"></a>
         <br>
-        <a href="sair.html" value="Logar">Sair do login</a>
+        <a href="sair.html"><input id="in" type="button" value="Sair do login"></a>
     </div>
 </body>
 
 
 <style>
     .menu{
-        font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        background: linear-gradient(120deg, #00c2cb, #E75590);
+        background: linear-gradient(120deg, #f9f2e7, #ffefa9);
         width: 350px;
-        height: 400px;
-        align-items: center;
-        justify-content: center;
-        border-color: #E75590;
+        height: 455px;
     }
 
-    a{
-        background-color: #E75590;
+    h1{
+        margin-top: 5px;
+        font-size: 50px;
     }
 
-    a:hover{
-        background-color: rgb(248, 220, 220);
+    input{
+        border-radius: 3px;
+        background-color:#40c0cb;
+        font-weight: bold;
+        font-size: 30px;
+        height: 60px;
+    }
+
+    #in{
+        margin-top: 10px;
+    }
+
+    input:hover{
+        background-color: #158fa2;
     }
 </style>
